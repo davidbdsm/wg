@@ -149,3 +149,28 @@ body:after{content:"less than 320px";font-size:1rem;font-weight:bold;position:fi
 a, a:focus, a:active, a:hover, object, embed { outline: none; }
 :-moz-any-link:focus { outline: none; }
 input::-moz-focus-inner { border: 0; }
+
+.form{
+    margin: 10px 20px;
+    background-color: #1f6ae2;
+    padding-left: 12px;
+    color: #000;
+}
+.form-group{
+    width: 35%;
+    height: 35%;
+}
+.form-check-input{
+    display: block;
+    padding-top: 20px;
+}
+.botao{
+    margin-bottom: 5px;
+}
+.navbar-nav{
+    display: inline;
+}
+div form a i{
+padding-left: 10px;
+}
+
