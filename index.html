@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title></title>
+      <meta name="viewport" content="width-device-width, initial-scale=1" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="stylesheet" href="css/style.css" />
+      <link href="https://fonts.googleapis.com/css?family=Joti+One|Open+Sans+Condensed:300" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.2/cyborg/bootstrap.min.css" crossorigin="anonymous">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.2/cyborg/bootstrap.min.css" rel="stylesheet" integrity="sha384-kwkqQ7fZB5Z1oUZHYnI1NTELpNDXw1p2IoxBpi1QGzK62+u6LMHRBmD1ZzBxCoD+" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+   </head>
+   <body class="bg" background="img/background.jpg" >
+      <div class="container bg-transparent">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+         <a class="navbar-brand" href="#"></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarColor01">
+         <div class="menu-topo">
+         <ul class="navbar-nav mr-auto">
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+               <div class="btn-group mr-2" role="group" aria-label="First group">
+                  <li class="nav-item"><img class="logo" src="img/wg2.png" /> </li>
+                  <div class="btn-group" role="group" aria-label="Basic example">
+                     <a href="login.html"><button type="button" class="btn btn bg-transparent "><i class="fa fa-user-o fa-3x" aria-hidden="true"></i></button></a>
+                     <a href="carrinho.html"><button type="button" class="btn btn bg-transparent"><i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i></button></a>
+                  </div>
+               </div>
+         </ul>
+         </div>
+      </nav>
+      <ol class="breadcrumb bg-transparent">
+         <div class="menu_lateral">
+         <button type="button" class="btn btn-info btn-sm">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">MENU</a>
+            <div class="dropdown-menu" x-placement="bottom-start">
+               <a class="dropdown-item" href="quemSomos.html">Quem somos</a>
+               <a class="dropdown-item" href="cadastroCli.html">Cadastro de clientes</a>
+               <a class="dropdown-item" href="cadastroProd.html">Cadastro do produto</a>
+               <a class="dropdown-item" href="promocao.html">Promoção</a>
+               <a class="dropdown-item" href="faleConosco.html">Fale conosco</a>
+         </button>
+         <!--<div class="dropdown-divider"></div>-->
+         </div>
+         <form class="form-inline my-2 my-lg-0">
+            <div><input id="isearch" class="form-control mr-sm-2" type="text" placeholder="Search"></div>
+            <a href="#"><button type="button" class="btn btn-info"><i class="fa fa-search fa-2x" aria-hidden="true"></i></button></a>
+         </form>
+      </ol>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-info" id="carousel-navbar">
+         <a class="navbar-brand">DESTAQUES</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+            <form class="form-inline my-2 my-lg-0">
+               <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card1">
+                  <div class="card-header bg-info">
+                     <h5>BATTLEFIELD ONE</h5>
+                  </div>
+                  <div class="card-body">
+                     <h4 class="card-title"><img src="img/battlefieldOne_logo.jpg" width="150" height="150"></h4>
+                     <p class="card-text"> R$ 250,00 à vista no boleto</p>
+                     <p class="card-text">12x de R$ 400,67 sem juros</p>
+            <form class="form-inline my-2 my-lg-0">
+            <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+            <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+            </div>
+            </div>
+            <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card2">
+            <div class="card-header bg-info"><h5>BATTLEFIELD ONE</h5></div>
+            <div class="card-body">
+            <h4 class="card-title"><img src="img/battlefieldOne_logo.jpg" width="150" height="150"></h4>
+            <p class="card-text"> R$ 250,00 à vista no boleto</p>
+            <p class="card-text">12x de R$ 400,67 sem juros</p>
+            <form class="form-inline my-2 my-lg-0">
+            <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+            <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+            </div>
+            </div>
+            <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card3">
+            <div class="card-header bg-info"><h5>BATTLEFIELD ONE</h5></div>
+            <div class="card-body">
+            <h4 class="card-title"><img src="img/battlefieldOne_logo.jpg" width="150" height="150"></h4>
+            <p class="card-text"> R$ 250,00 à vista no boleto</p>
+            <p class="card-text">12x de R$ 400,67 sem juros</p>
+            <form class="form-inline my-2 my-lg-0">
+            <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+            <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+            </div>
+            </div>
+            <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card4">
+            <div class="card-header bg-info"><h5>BATTLEFIELD ONE</h5></div>
+            <div class="card-body">
+            <h4 class="card-title"><img src="img/battlefieldOne_logo.jpg" width="150" height="150"></h4>
+            <p class="card-text"> R$ 250,00 à vista no boleto</p>
+            <p class="card-text">12x de R$ 400,67 sem juros</p>
+            <form class="form-inline my-2 my-lg-0">
+            <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+            <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+            </div>
+            </div>
+            </form>
+         </div>
+         <div class="carousel-item">
+            <form class="form-inline my-2 my-lg-0">
+               <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card1">
+                  <div class="card-header bg-info">
+                     <h5>BATTLEFIELD ONE</h5>
+                  </div>
+                  <div class="card-body">
+                     <h4 class="card-title"><img src="img/battlefieldOne_logo.jpg" width="150" height="150"></h4>
+                     <p class="card-text"> R$ 250,00 à vista no boleto</p>
+                     <p class="card-text">12x de R$ 400,67 sem juros</p>
+            <form class="form-inline my-2 my-lg-0">
+            <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+            <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+            </div>
+            </div>
+            <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card2">
+            <div class="card-header bg-info"><h5>BATTLEFIELD ONE</h5></div>
+            <div class="card-body">
+            <h4 class="card-title"><img src="img/battlefieldOne_logo.jpg" width="150" height="150"></h4>
+            <p class="card-text"> R$ 250,00 à vista no boleto</p>
+            <p class="card-text">12x de R$ 400,67 sem juros</p>
+            <form class="form-inline my-2 my-lg-0">
+            <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+            <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+            </div>
+            </div>
+            <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card3">
+            <div class="card-header bg-info"><h5>BATTLEFIELD ONE</h5></div>
+            <div class="card-body">
+            <h4 class="card-title"><img src="img/battlefieldOne_logo.jpg" width="150" height="150"></h4>
+            <p class="card-text"> R$ 250,00 à vista no boleto</p>
+            <p class="card-text">12x de R$ 400,67 sem juros</p>
+            <form class="form-inline my-2 my-lg-0">
+            <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+            <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+            </div>
+            </div>
+            <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card4">
+            <div class="card-header bg-info"><h5>BATTLEFIELD ONE</h5></div>
+            <div class="card-body">
+            <h4 class="card-title"><img src="img/battlefieldOne_logo.jpg" width="150" height="150"></h4>
+            <p class="card-text"> R$ 250,00 à vista no boleto</p>
+            <p class="card-text">12x de R$ 400,67 sem juros</p>
+            <form class="form-inline my-2 my-lg-0">
+            <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+            <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+            </div>
+            </div>
+            </form>
+         </div>
+         <div class="carousel-item">
+            <form class="form-inline my-2 my-lg-0">
+               <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card1">
+                  <div class="card-header bg-info">
+                     <h5>BATTLEFIELD ONE</h5>
+                  </div>
+                  <div class="card-body">
+                     <h4 class="card-title"><img src="img/battlefieldOne_logo.jpg" width="150" height="150"></h4>
+                     <p class="card-text"> R$ 250,00 à vista no boleto</p>
+                     <p class="card-text">12x de R$ 400,67 sem juros</p>
+            <form class="form-inline my-2 my-lg-0">
+            <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+            <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+            </div>
+            </div>
+            <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card2">
+            <div class="card-header bg-info"><h5>BATTLEFIELD ONE</h5></div>
+            <div class="card-body">
+            <h4 class="card-title"><img src="img/battlefieldOne_logo.jpg" width="150" height="150"></h4>
+            <p class="card-text"> R$ 250,00 à vista no boleto</p>
+            <p class="card-text">12x de R$ 400,67 sem juros</p>
+            <form class="form-inline my-2 my-lg-0">
+            <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+            <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+            </div>
+            </div>
+            <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card3">
+            <div class="card-header bg-info"><h5>BATTLEFIELD ONE</h5></div>
+            <div class="card-body">
+            <h4 class="card-title"><img src="img/battlefieldOne_logo.jpg" width="150" height="150"></h4>
+            <p class="card-text"> R$ 250,00 à vista no boleto</p>
+            <p class="card-text">12x de R$ 400,67 sem juros</p>
+            <form class="form-inline my-2 my-lg-0">
+            <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+            <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+            </div>
+            </div>
+            <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card4">
+            <div class="card-header bg-info"><h5>BATTLEFIELD ONE</h5></div>
+            <div class="card-body">
+            <h4 class="card-title"><img src="img/battlefieldOne_logo.jpg" width="150" height="150"></h4>
+            <p class="card-text"> R$ 250,00 à vista no boleto</p>
+            <p class="card-text">12x de R$ 400,67 sem juros</p>
+            <form class="form-inline my-2 my-lg-0">
+            <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+            <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+            </div>
+            </div>
+            </form>
+         </div>
+         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+         </a>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-info" id="carousel-navbar2">
+         <a class="navbar-brand">DESTAQUES</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+      </nav>
+      <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+         <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+         </ol>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <form class="form-inline my-2 my-lg-0">
+                  <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card1">
+                     <div class="card-header bg-info">
+                        <h5>BATTLEFIELD ONE</h5>
+                     </div>
+                     <div class="card-body">
+                        <h4 class="card-title"><img src="img/battlefieldOne_logo.jpg" width="150" height="150"></h4>
+                        <p class="card-text"> R$ 250,00 à vista no boleto</p>
+                        <p class="card-text">12x de R$ 400,67 sem juros</p>
+               <form class="form-inline my-2 my-lg-0">
+               <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+               <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+               </div>
+               </div>
+               <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card2">
+               <div class="card-header bg-info"><h5>BATTLEFIELD ONE</h5></div>
+               <div class="card-body">
+               <h4 class="card-title"><img src="img/battlefieldOne_logo.jpg" width="150" height="150"></h4>
+               <p class="card-text"> R$ 250,00 à vista no boleto</p>
+               <p class="card-text">12x de R$ 400,67 sem juros</p>
+               <form class="form-inline my-2 my-lg-0">
+               <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+               <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+               </div>
+               </div>
+               <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card3">
+               <div class="card-header bg-info"><h5>BATTLEFIELD ONE</h5></div>
+               <div class="card-body">
+               <h4 class="card-title"><img src="img/battlefieldOne_logo.jpg" width="150" height="150"></h4>
+               <p class="card-text"> R$ 250,00 à vista no boleto</p>
+               <p class="card-text">12x de R$ 400,67 sem juros</p>
+               <form class="form-inline my-2 my-lg-0">
+               <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+               <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+               </div>
+               </div>
+               <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card4">
+               <div class="card-header bg-info"><h5>BATTLEFIELD ONE</h5></div>
+               <div class="card-body">
+               <h4 class="card-title"><img src="img/battlefieldOne_logo.jpg" width="150" height="150"></h4>
+               <p class="card-text"> R$ 250,00 à vista no boleto</p>
+               <p class="card-text">12x de R$ 400,67 sem juros</p>
+               <form class="form-inline my-2 my-lg-0">
+               <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+               <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+               </div>
+               </div>
+               </form>
+            </div>
+            <div class="carousel-item">
+               <form class="form-inline my-2 my-lg-0">
+                  <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card1">
+                     <div class="card-header bg-info">
+                        <h5>BATTLEFIELD ONE</h5>
+                     </div>
+                     <div class="card-body">
+                        <h4 class="card-title"><img src="img/battlefieldOne_logo.jpg" width="150" height="150"></h4>
+                        <p class="card-text"> R$ 250,00 à vista no boleto</p>
+                        <p class="card-text">12x de R$ 400,67 sem juros</p>
+               <form class="form-inline my-2 my-lg-0">
+               <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+               <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+               </div>
+               </div>
+               <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card2">
+               <div class="card-header bg-info"><h5>BATTLEFIELD ONE</h5></div>
+               <div class="card-body">
+               <h4 class="card-title"><img src="img/battlefieldOne_logo.jpg" width="150" height="150"></h4>
+               <p class="card-text"> R$ 250,00 à vista no boleto</p>
+               <p class="card-text">12x de R$ 400,67 sem juros</p>
+               <form class="form-inline my-2 my-lg-0">
+               <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+               <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+               </div>
+               </div>
+               <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card3">
+               <div class="card-header bg-info"><h5>BATTLEFIELD ONE</h5></div>
+               <div class="card-body">
+               <h4 class="card-title"><img src="img/battlefieldOne_logo.jpg" width="150" height="150"></h4>
+               <p class="card-text"> R$ 250,00 à vista no boleto</p>
+               <p class="card-text">12x de R$ 400,67 sem juros</p>
+               <form class="form-inline my-2 my-lg-0">
+               <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+               <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+               </div>
+               </div>
+               <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card4">
+               <div class="card-header bg-info"><h5>BATTLEFIELD ONE</h5></div>
+               <div class="card-body">
+               <h4 class="card-title"><img src="img/battlefieldOne_logo.jpg" width="150" height="150"></h4>
+               <p class="card-text"> R$ 250,00 à vista no boleto</p>
+               <p class="card-text">12x de R$ 400,67 sem juros</p>
+               <form class="form-inline my-2 my-lg-0">
+               <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+               <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+               </div>
+               </div>
+               </form>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+         </div>
+         </div>
+      </div>
+   </div>
+      <footer class="bg-dark rodape">
+         <div class="row">
+            <div class="col-xl-12 text-center">
+               <a href="https://www.instagram.com/"><i class="fa fa-instagran fa-3x" aria-hidden="true"></i></a>
+               <a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+               <a href="https://www.twitter.com/"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+               <a href="https://www.github.com/"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+               <a href="https://www.dropbox.com/"><i class="fa fa-dropbox fa-3x" aria-hidden="true"></i></a>
+               <a href="https://br.linkedin.com/"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
+               <div class="col-xl-12">
+                  <h6 class="text-center"> Desenvolvido por: Richard de Freitas | Senac NI 2018 </h6>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>
+<!-- Compiled and minified CSS (dentro do head)
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+   <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    Compiled and minified JavaScript 
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+           (Dentro do body) <div class="carousel">
+     <div class="carousel-item">
+       <div class="card">
+         <div class="card-image">
+           <img src="http://lorempixel.com/250/250/nature/1">
+         </div>
+   
+         <div class="card-content">
+           This is a content
+         </div>
+         <div class="card-action">
+           <a href="#">This is a link</a>
+         </div>
+       </div>
+     </div>
+     <div class="carousel-item">
+       <div class="card">
+         <div class="card-image">
+           <img src="http://lorempixel.com/250/250/nature/1">
+         </div>
+         <div class="card-content">
+           This is a content
+         </div>
+         <div class="card-action">
+           <a href="#">This is a link</a>
+         </div>
+       </div>
+     </div>
+     <div class="carousel-item">
+       <div class="card">
+         <div class="card-image">
+           <img src="http://lorempixel.com/250/250/nature/1">
+         </div>
+         <div class="card-content">
+           This is a content
+         </div>
+         <div class="card-action">
+           <a href="#">This is a link</a>
+         </div>
+       </div>
+     </div>
+     <div class="carousel-item">
+       <div class="card">
+         <div class="card-image">
+           <img src="http://lorempixel.com/250/250/nature/1">
+         </div>
+         <div class="card-content">
+           This is a content
+         </div>
+         <div class="card-action">
+           <a href="#">This is a link</a>
+         </div>
+       </div>      
+     </div>
+   </div>
+   <script>$(document).ready(function(){$('.carousel').carousel();});</script>-->

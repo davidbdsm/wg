@@ -1,0 +1,337 @@
+   <!DOCTYPE html>
+   <html>
+      <head>
+         <meta charset="utf-8">
+         <title></title>
+         <meta name="viewport" content="width-device-width, initial-scale=1" />
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <link rel="stylesheet" href="css/style.css" />
+         <link href="https://fonts.googleapis.com/css?family=Joti+One|Open+Sans+Condensed:300" rel="stylesheet">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.2/cyborg/bootstrap.min.css" crossorigin="anonymous">
+         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+         <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.2/cyborg/bootstrap.min.css" rel="stylesheet" integrity="sha384-kwkqQ7fZB5Z1oUZHYnI1NTELpNDXw1p2IoxBpi1QGzK62+u6LMHRBmD1ZzBxCoD+" crossorigin="anonymous">
+         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+      </head>
+      <body class="bg" background="img/background.jpg" >
+         <div class="container bg-transparent">
+         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarColor01">
+            <div class="menu-topo">
+            <ul class="navbar-nav mr-auto">
+               <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                  <div class="btn-group mr-2" role="group" aria-label="First group">
+                     <li class="nav-item"><img class="logo" src="img/wg2.png" /> </li>
+                     <div class="btn-group" role="group" aria-label="Basic example">
+                        <a href="login.html"><button type="button" class="btn btn bg-transparent "><i class="fa fa-user-o fa-3x" aria-hidden="true"></i></button></a>
+                        <a href="carrinho.html"><button type="button" class="btn btn bg-transparent"><i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i></button></a>
+                     </div>
+                  </div>
+            </ul>
+            </div>
+         </nav>
+         <ol class="breadcrumb bg-transparent">
+            <div class="menu_lateral">
+            <button type="button" class="btn btn-info btn-sm">
+               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">MENU</a>
+               <div class="dropdown-menu" x-placement="bottom-start">
+                  <a class="dropdown-item" href="quemSomos.html">Quem somos</a>
+                  <a class="dropdown-item" href="cadastroCli.html">Cadastro de clientes</a>
+                  <a class="dropdown-item" href="cadastroProd.html">Cadastro do produto</a>
+                  <a class="dropdown-item" href="promocao.html">Promoção</a>
+                  <a class="dropdown-item" href="faleConosco.html">Fale conosco</a>
+            </button>
+            <!--<div class="dropdown-divider"></div>-->
+            </div>
+            <form class="form-inline my-2 my-lg-0">
+               <div><input id="isearch" class="form-control mr-sm-2" type="text" placeholder="Search"></div>
+               <a href="#"><button type="button" class="btn btn-info"><i class="fa fa-search fa-2x" aria-hidden="true"></i></button></a>
+            </form>
+         </ol>
+         <nav class="navbar navbar-expand-lg navbar-dark bg-info" id="carousel-navbar">
+            <a class="navbar-brand"> JOGOS </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+               </a>
+               <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+               </a>
+
+         </nav>
+         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+         <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+         </ol>
+
+         <div  class="carousel-inner">
+            <div class="carousel-item active">
+               <form class="form-inline my-2 my-lg-0">
+                  <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card1">
+                     <div class="card-header bg-info">
+                         <a href="bf1.html"><h5>Battlefield 1</h5></a>
+                     </div>
+                     <div class="card-body">
+                        <h4 class="card-title"><img src="img/b1.jpg" ></h4>
+                        <p class="card-text"> R$ 250,00 à vista no boleto</p>
+                        <p class="card-text">12x de R$ 400,67 sem juros</p>
+               <form class="form-inline my-2 my-lg-0">
+               <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+               <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+               </div>
+               </div>
+
+               <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card2">
+               <div class="card-header bg-info"><a href="mk8.html"><h5>Mario kart 8</h5></div></a>
+               <div class="card-body">
+               <h4 class="card-title"><img src="img/mkk8.jpg" ></h4>
+               <p class="card-text"> R$ 250,00 à vista no boleto</p>
+               <p class="card-text">12x de R$ 400,67 sem juros</p>
+               <form class="form-inline my-2 my-lg-0">
+               <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+               <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+               </div>
+               </div>
+
+               <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card3">
+               <div class="card-header bg-info"><a href="forza.html"><h5>Forza</h5></div></a>
+               <div class="card-body">
+               <h4 class="card-title"><img src="img/forza.jpg"></h4>
+               <p class="card-text"> R$ 250,00 à vista no boleto</p>
+               <p class="card-text">12x de R$ 400,67 sem juros</p>
+               <form class="form-inline my-2 my-lg-0">
+               <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+               <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+               </div>
+               </div>
+
+               <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card4">
+               <div class="card-header bg-info"><a href="gow.html"><h5>Gears of War</h5></div></a>
+               <div class="card-body">
+               <h4 class="card-title"><img src="img/gearscapa.jpg" ></h4>
+               <p class="card-text"> R$ 250,00 à vista no boleto</p>
+               <p class="card-text">12x de R$ 400,67 sem juros</p>
+               <form class="form-inline my-2 my-lg-0">
+               <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+               <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+               </div>
+               </div>
+               </form>
+            </div>
+
+            <div class="carousel-item">
+               <form class="form-inline my-2 my-lg-0">
+
+                 <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card2">
+               <div class="card-header bg-info"><a href="mk.html"><h5>Mortal Kombat</h5></div></a>
+                  <div class="card-body">
+                  <h4 class="card-title"><img src="img/mkps4.jpg" ></h4>
+                  <p class="card-text"> R$ 1250,00 à vista no boleto</p>
+                  <p class="card-text">12x de R$ 104,16 sem juros</p>
+                  <form class="form-inline my-2 my-lg-0">
+                  <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+                  <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+                  </div>
+                  </div>
+               
+               <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card2">
+               <div class="card-header bg-info"><a href="mp11.html"><h5>Mario Party 11</h5></div></a>
+               <div class="card-body">
+               <h4 class="card-title"><img src="img/mps.png"></h4>
+               <p class="card-text"> R$ 250,00 à vista no boleto</p>
+               <p class="card-text">12x de R$ 400,67 sem juros</p>
+               <form class="form-inline my-2 my-lg-0">
+               <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+               <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+               </div>
+               </div>
+               <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card3">
+               <div class="card-header bg-info"><a href="titan.html"><h5>Titanfall</h5></div></a>
+               <div class="card-body">
+               <h4 class="card-title"><img src="img/tinta.jpg"></h4>
+               <p class="card-text"> R$ 250,00 à vista no boleto</p>
+               <p class="card-text">12x de R$ 400,67 sem juros</p>
+               <form class="form-inline my-2 my-lg-0">
+               <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+               <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+               </div>
+               </div>
+               <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card4">
+               <div class="card-header bg-info"><a href="fifa.html"><h5>Fifa 18</h5></div></a>
+               <div class="card-body">
+               <h4 class="card-title"><img src="img/fifa18.png" width="150" height="150"></h4>
+               <p class="card-text"> R$ 250,00 à vista no boleto</p>
+               <p class="card-text">12x de R$ 400,67 sem juros</p>
+               <form class="form-inline my-2 my-lg-0">
+               <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+               <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+               </div>
+               </div>
+               </form>
+            </div>
+         </div>
+
+         <nav class="navbar navbar-expand-lg navbar-dark bg-info" id="carousel-navbar2">
+            <a class="navbar-brand">CONSOLES E JOYSTICKS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+             <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+         </nav>
+         <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+               <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+               <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <form class="form-inline my-2 my-lg-0">
+                    <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card2">
+               <div class="card-header bg-info"><a href="xbox.html"><h5>Xbox One</h5></div></a>
+                  <div class="card-body">
+                  <h4 class="card-title"><img src="img/xbox.jpg" ></h4>
+                  <p class="card-text"> R$ 1250,00 à vista no boleto</p>
+                  <p class="card-text">12x de R$ 104,16 sem juros</p>
+                  <form class="form-inline my-2 my-lg-0">
+                  <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+                  <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+                  </div>
+                  </div>
+
+                  <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card2">
+               <div class="card-header bg-info"><a href="xboxonex.html"><h5>Xbox One X</h5></div></a>
+                  <div class="card-body">
+                  <h4 class="card-title"><img src="img/XboxOneX.jpg" ></h4>
+                  <p class="card-text"> R$ 1250,00 à vista no boleto</p>
+                  <p class="card-text">12x de R$ 104,16 sem juros</p>
+                  <form class="form-inline my-2 my-lg-0">
+                  <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+                  <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+                  </div>
+                  </div>
+
+                  <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card3">
+               <div class="card-header bg-info"><a href="controlexbox360.html"><h5>Joystick xbox 360</h5></div></a>
+                  <div class="card-body">
+                  <h4 class="card-title"><img src="img/controlex360.jpg" ></h4>
+                  <p class="card-text"> R$ 850,00 à vista no boleto</p>
+                  <p class="card-text">12x de R$ 70,83 sem juros</p>
+                  <form class="form-inline my-2 my-lg-0">
+                  <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+                  <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+                  </div>
+                  </div>
+                  <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card4">
+               <div class="card-header bg-info"><a href="ps4neo.html"><h5>Play station 4 PRO</h5></div></a>
+                  <div class="card-body">
+                  <h4 class="card-title"><img src="img/ps4pro.jpg" ></h4>
+                  <p class="card-text"> R$ 2250,00 à vista no boleto</p>
+                  <p class="card-text">12x de R$ 204,67 sem juros</p>
+                  <form class="form-inline my-2 my-lg-0">
+                  <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+                  <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+                  </div>
+                  </div>
+                  </form>
+
+               </div>
+               <div class="carousel-item">
+                  <form class="form-inline my-2 my-lg-0">
+                  <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card2">
+               <div class="card-header bg-info"><a href="controleswitch.html"><h5>Joystick Switch</h5></div></a>
+                  <div class="card-body">
+                  <h4 class="card-title"><img src="img/controle-switch.jpg" ></h4>
+                  <p class="card-text"> R$ 2250,00 à vista no boleto</p>
+                  <p class="card-text">12x de R$ 187,50 sem juros</p>
+                  <form class="form-inline my-2 my-lg-0">
+                  <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+                  <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+                  </div>
+                  </div>
+
+                  <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card2">
+               <div class="card-header bg-info"><a href="wii.html"><h5>Nintendo wii</h5></div></a>
+                  <div class="card-body">
+                  <h4 class="card-title"><img src="img/wii.png" ></h4>
+                  <p class="card-text"> R$ 2250,00 à vista no boleto</p>
+                  <p class="card-text">12x de R$ 187,50 sem juros</p>
+                  <form class="form-inline my-2 my-lg-0">
+                  <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+                  <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+                  </div>
+                  </div>
+
+                  <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card3">
+               <div class="card-header bg-info"><a href="ps4.html"><h5>Play Station 4</h5></div></a>
+                  <div class="card-body">
+                  <h4 class="card-title"><img src="img/ps4.jpg" ></h4>
+                  <p class="card-text"> R$ 3250,00 à vista no boleto</p>
+                  <p class="card-text">12x de R$ 270,83 sem juros</p>
+                  <form class="form-inline my-2 my-lg-0">
+                  <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+                  <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+                  </div>
+                  </div>
+                  <div class="card text-white bg-white mb-3" style="max-width: 17rem;" id="card4">
+               <div class="card-header bg-info"><a href="controlewii.html"><h5>Joystick Wii</h5></div></a>
+                  <div class="card-body">
+                  <h4 class="card-title"><img src="img/controlewii.jpg" ></h4>
+                  <p class="card-text"> R$ 5550,00 à vista no boleto</p>
+                  <p class="card-text">12x de R$ 462,50 sem juros</p>
+                  <form class="form-inline my-2 my-lg-0">
+                  <a href="#"><button type="button" class="btn btn-success btn-lg">Comprar</button></a>
+                  <a href="carrinho.html"><button type="button" class="btn btn bg-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></a>
+                  </div>
+                  </div>
+                  </form>
+               </div>
+              
+            </div>
+            </div>
+         </div>
+      </div>
+
+        <footer class="bg-dark rodape">
+   
+   <div class="row">
+      <div class="col-xl-12 text-center cartoes">
+         <a href="#"> <i class="fa fa-cc-visa fa-3x"></i></a>
+         <a href="#"> <i class="fa fa-cc-mastercard fa-3x"></i></a>
+         <a href="#"> <i class="fa fa-cc-diners-club fa-3x"></i></a>
+         <a href="#"> <i class="fa fa-credit-card fa-3x"></i></a>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-xl-12 text-center redes">
+               <a href="#"><i class="fa fa-youtube fa-3x" aria-hidden="true"></i></a>
+               <a href="#"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+               <a href="#"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+               <a href="#"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+               
+      </div>
+   </div>
+</footer>
+      </body>
+   </html>
